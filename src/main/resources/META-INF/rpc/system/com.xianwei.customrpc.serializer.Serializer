@@ -1,0 +1,4 @@
+jdk=com.xianwei.customrpc.serializer.JdkSerializer
+hessian=com.xianwei.customrpc.serializer.HessianSerializer
+json=com.xianwei.customrpc.serializer.JsonSerializer
+kryo=com.xianwei.customrpc.serializer.KryoSerializer

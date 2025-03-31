@@ -1,0 +1,3 @@
+roundRobin=com.xianwei.customrpc.loadbalancer.RoundRobinLoadBalancer
+random=com.xianwei.customrpc.loadbalancer.RandomLoadBalancer
+consistentHash=com.xianwei.customrpc.loadbalancer.ConsistentHashLoadBalancer

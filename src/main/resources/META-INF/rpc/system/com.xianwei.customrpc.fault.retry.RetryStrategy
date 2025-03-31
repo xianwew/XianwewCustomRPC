@@ -1,0 +1,2 @@
+no=com.xianwei.customrpc.fault.retry.NoRetryStrategy
+fixedInterval=com.xianwei.customrpc.fault.retry.FixedIntervalRetryStrategy

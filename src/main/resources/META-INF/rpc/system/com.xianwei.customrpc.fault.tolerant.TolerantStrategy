@@ -1,0 +1,4 @@
+failBack=com.xianwei.customrpc.fault.tolerant.FailBackTolerantStrategy
+failFast=com.xianwei.customrpc.fault.tolerant.FailFastTolerantStrategy
+failOver=com.xianwei.customrpc.fault.tolerant.FailOverTolerantStrategy
+failSafe=com.xianwei.customrpc.fault.tolerant.FailSafeTolerantStrategy
