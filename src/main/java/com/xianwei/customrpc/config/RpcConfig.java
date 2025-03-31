@@ -15,7 +15,7 @@ public class RpcConfig {
     /**
      * Application name (used to identify the service/application)
      */
-    private String name = "yu-rpc";
+    private String name = "xianwei-custom-rpc";
 
     /**
      * Version of the RPC framework or the application

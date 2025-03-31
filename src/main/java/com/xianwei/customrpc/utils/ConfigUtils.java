@@ -4,34 +4,34 @@ import cn.hutool.core.util.StrUtil;
 import cn.hutool.setting.dialect.Props;
 
 /**
- * 配置工具类
+ * Configuration Utility Class
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @learn <a href="https://codefather.cn">程序员鱼皮的编程宝典</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+ * Provides methods to load configuration objects from properties files.
  */
 public class ConfigUtils {
 
     /**
-     * 加载配置对象
+     * Load a configuration object using the default environment.
      *
-     * @param tClass
-     * @param prefix
-     * @param <T>
-     * @return
+     * @param tClass The class of the configuration object
+     * @param prefix The property prefix to map (e.g., "rpc")
+     * @param <T>    Generic type of the configuration object
+     * @return An instance of the config class populated from the properties file
      */
     public static <T> T loadConfig(Class<T> tClass, String prefix) {
         return loadConfig(tClass, prefix, "");
     }
 
     /**
-     * 加载配置对象，支持区分环境
+     * Load a configuration object with environment-specific support.
      *
-     * @param tClass
-     * @param prefix
-     * @param environment
-     * @param <T>
-     * @return
+     * Loads properties from `application.properties` or `application-{env}.properties`.
+     *
+     * @param tClass       The class of the configuration object
+     * @param prefix       The property prefix to map (e.g., "rpc")
+     * @param environment  Optional environment name (e.g., "dev", "prod")
+     * @param <T>          Generic type of the configuration object
+     * @return An instance of the config class populated from the appropriate properties file
      */
     public static <T> T loadConfig(Class<T> tClass, String prefix, String environment) {
         StringBuilder configFileBuilder = new StringBuilder("application");
@@ -39,7 +39,11 @@ public class ConfigUtils {
             configFileBuilder.append("-").append(environment);
         }
         configFileBuilder.append(".properties");
+
+        // Load the properties file (e.g., application.properties or application-dev.properties)
         Props props = new Props(configFileBuilder.toString());
+
+        // Map the properties with the given prefix to an instance of the target config class
         return props.toBean(tClass, prefix);
     }
 }
