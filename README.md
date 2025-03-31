@@ -1,4 +1,4 @@
-Custom RPC Docs
+# Custom RPC Docs
 
 
 ## **1. Introduction**
