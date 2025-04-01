@@ -1,23 +1,23 @@
 package com.xianwei.customrpc.protocol;
 
 /**
- * 协议常量
+ * Protocol Constant
  *
  */
 public interface ProtocolConstant {
 
     /**
-     * 消息头长度
+     * Head length
      */
     int MESSAGE_HEADER_LENGTH = 17;
 
     /**
-     * 协议魔数
+     * Magic byte for safety
      */
     byte PROTOCOL_MAGIC = 0x1;
 
     /**
-     * 协议版本号
+     * Version number
      */
     byte PROTOCOL_VERSION = 0x1;
 }
