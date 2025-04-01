@@ -236,7 +236,7 @@ A key feature of this RPC framework is its ability to **centrally manage** and *
 
 1. **Multiple File Formats**
 
-   - By default, the framework looks for configuration in `.properties` or `.yml` files (for example, `application.properties`, `application-dev.properties`, `application-prod.properties`).
+   - By default, the framework looks for configuration in `.properties` files (for example, `application.properties`, `application-dev.properties`, `application-prod.properties`).
 
    - Users can place these files in the classpath so they are discovered automatically at runtime.
 
