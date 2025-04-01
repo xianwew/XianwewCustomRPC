@@ -6,35 +6,35 @@
 
 [2. Usage](#2-usage)
 
-[2.1 Create the Common Package](#21-create-the-common-package)
-
-[2.2 Implement and Expose the Provider](#22-implement-and-expose-the-provider)
-
-[2.3 Consume the Service](#23-consume-the-service)
-
-[2.4 Configure the Remote Registry](#24-configure-the-remote-registry)
-
-[2.5 Putting It All Together](#25-putting-it-all-together)
+   [2.1 Create the Common Package](#21-create-the-common-package)
+   
+   [2.2 Implement and Expose the Provider](#22-implement-and-expose-the-provider)
+   
+   [2.3 Consume the Service](#23-consume-the-service)
+   
+   [2.4 Configure the Remote Registry](#24-configure-the-remote-registry)
+   
+   [2.5 Putting It All Together](#25-putting-it-all-together)
 
 [3. Key Features](#3-key-features)
 
-[3.1 Global Configuration Loading](#31-global-configuration-loading)
-
-[3.2 Serializer and SPI Mechanism](#32-serializer-and-spi-mechanism)
-
-[3.3 Registry Center](#33-registry-center)
-
-[3.4 Registry Center Optimization](#34-registry-center-optimization)
-
-[3.5 TCP Protocol & Sticky-Packet Issue](#35-tcp-protocol--sticky-packet-issue)
-
-[3.6 Load Balancing](#36-load-balancing)
-
-[3.7 Retry Mechanism](https://docs.google.com/document/d/1ydM_E9fagteVOvkOm7ZArElo3o7Ohgqvz-gavaDPwoY/edit?tab=t.0#heading=h.1gdtre314jyv)
-
-[3.8 Fault Tolerance Strategy](https://docs.google.com/document/d/1ydM_E9fagteVOvkOm7ZArElo3o7Ohgqvz-gavaDPwoY/edit?tab=t.0#heading=h.8a0i8vxcq7n)
-
-[3.9 Startup Mechanism](https://docs.google.com/document/d/1ydM_E9fagteVOvkOm7ZArElo3o7Ohgqvz-gavaDPwoY/edit?tab=t.0#heading=h.1z6fsfqiwh4u)
+   [3.1 Global Configuration Loading](#31-global-configuration-loading)
+   
+   [3.2 Serializer and SPI Mechanism](#32-serializer-and-spi-mechanism)
+   
+   [3.3 Registry Center](#33-registry-center)
+   
+   [3.4 Registry Center Optimization](#34-registry-center-optimization)
+   
+   [3.5 TCP Protocol & Sticky-Packet Issue](#35-tcp-protocol--sticky-packet-issue)
+   
+   [3.6 Load Balancing](#36-load-balancing)
+   
+   [3.7 Retry Mechanism](https://docs.google.com/document/d/1ydM_E9fagteVOvkOm7ZArElo3o7Ohgqvz-gavaDPwoY/edit?tab=t.0#heading=h.1gdtre314jyv)
+   
+   [3.8 Fault Tolerance Strategy](https://docs.google.com/document/d/1ydM_E9fagteVOvkOm7ZArElo3o7Ohgqvz-gavaDPwoY/edit?tab=t.0#heading=h.8a0i8vxcq7n)
+   
+   [3.9 Startup Mechanism](https://docs.google.com/document/d/1ydM_E9fagteVOvkOm7ZArElo3o7Ohgqvz-gavaDPwoY/edit?tab=t.0#heading=h.1z6fsfqiwh4u)
 
 [Conclusion](#conclusion)
 
